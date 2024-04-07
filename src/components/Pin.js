@@ -25,7 +25,9 @@ function Pin(props) {
 const styles = {
     pin: {
         margin: '15px 10px', 
-        padding: 0
+        padding: 0,
+        boxShadow: "0vh 0vh 1.5vh #ccc",
+        borderRadius: "0.5rem"
     }, 
     small: {
         gridRowEnd: 'span 30'

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "hg-semibold";
+    src: url('../assets/fonts/HindGuntur-SemiBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "hg-bold";
+    src: url('../assets/fonts/HindGuntur-Bold.ttf') format("truetype");
+}
+
+.layoutTitle {
+    font-family: "hg-bold";
+    font-size: 6vh;
+    line-height: 1;
+    margin-bottom: 1vh;
+}
+
+.layoutSubtitle {
+    font-family: "hg-semibold";
+    font-size: 3vh;
+    line-height: 1;
+    margin-bottom: 2vh;
+}

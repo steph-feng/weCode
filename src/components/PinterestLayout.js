@@ -2,6 +2,7 @@ import React from 'react';
 import Pin from './Pin';
 import trails from './trails.json';
 import items from './items.json';
+import "./PinterestLayout.css";
 // type is 0 for trails
 // type is 1 for items
 
@@ -21,7 +22,7 @@ function PinterestLayout(props) {
     const i3 = randomNumGen(0, 2) + 6;
     const i4 = randomNumGen(0, 2) + 9;
     const i5 = randomNumGen(0, 2) + 12;
-    
+
     // generate trails
     const t1 = randomNumGen(0, 3);
     const t2 = randomNumGen(0, 3) + 4;
@@ -45,47 +46,50 @@ function PinterestLayout(props) {
 
     return (
         <div>
-            <div className = "text-7xl m-10">
-                Your Arc'venture Starter Pack
+            <div className='flex flex-col justify-center items-center'>
+                <div className="text-7xl mt-10 mx-10 layoutTitle">
+                    YOUR ARC'VENTURE STARTER PACK
+                </div>
+                <div className='layoutSubtitle'>
+                    LEVEL {props.level} ARC'VENTURER
+                </div>
             </div>
+
             <div style={styles.pin_container}>
                 {/* trail */}
-                <Pin size = {lvlT[t1]['size']} image = {lvlT[t1]['Image Link']} link = {lvlT[t1]['Info Link']} text = {lvlT[t1]['Hike']} type = "0"/>
+                <Pin size={lvlT[t1]['size']} image={lvlT[t1]['Image Link']} link={lvlT[t1]['Info Link']} text={lvlT[t1]['Hike']} type="0" />
                 {/* item */}
-                <Pin size = {lvlI[i1]['size']} image = {lvlI[i1]['thumb_image']} link = {lvlI[i1]['link_to_website']} text = {lvlI[i1]['title']} type = "1" />
+                <Pin size={lvlI[i1]['size']} image={lvlI[i1]['thumb_image']} link={lvlI[i1]['link_to_website']} text={lvlI[i1]['title']} type="1" />
                 {/* trail */}
-                <Pin size = {lvlT[t2]['size']} image = {lvlT[t2]['Image Link']} link = {lvlT[t2]['Info Link']} text = {lvlT[t2]['Hike']} type = "0"/>
+                <Pin size={lvlT[t2]['size']} image={lvlT[t2]['Image Link']} link={lvlT[t2]['Info Link']} text={lvlT[t2]['Hike']} type="0" />
                 {/* item */}
-                <Pin size = {lvlI[i2]['size']} image = {lvlI[i2]['thumb_image']} link = {lvlI[i2]['link_to_website']} text = {lvlI[i2]['title']} type = "1" />
+                <Pin size={lvlI[i2]['size']} image={lvlI[i2]['thumb_image']} link={lvlI[i2]['link_to_website']} text={lvlI[i2]['title']} type="1" />
                 {/* item */}
-                <Pin size = {lvlI[i3]['size']} image = {lvlI[i3]['thumb_image']} link = {lvlI[i3]['link_to_website']} text = {lvlI[i3]['title']} type = "1" />
+                <Pin size={lvlI[i3]['size']} image={lvlI[i3]['thumb_image']} link={lvlI[i3]['link_to_website']} text={lvlI[i3]['title']} type="1" />
                 {/* item */}
-                <Pin size = {lvlI[i4]['size']} image = {lvlI[i4]['thumb_image']} link = {lvlI[i4]['link_to_website']} text = {lvlI[i4]['title']} type = "1" />
+                <Pin size={lvlI[i4]['size']} image={lvlI[i4]['thumb_image']} link={lvlI[i4]['link_to_website']} text={lvlI[i4]['title']} type="1" />
                 {/* trail */}
-                <Pin size = {lvlT[t3]['size']} image = {lvlT[t3]['Image Link']} link = {lvlT[t3]['Info Link']} text = {lvlT[t3]['Hike']} type = "0"/>
+                <Pin size={lvlT[t3]['size']} image={lvlT[t3]['Image Link']} link={lvlT[t3]['Info Link']} text={lvlT[t3]['Hike']} type="0" />
                 {/* item */}
-                <Pin size = {lvlI[i5]['size']} image = {lvlI[i5]['thumb_image']} link = {lvlI[i5]['link_to_website']} text = {lvlI[i5]['title']} type = "1" />
+                <Pin size={lvlI[i5]['size']} image={lvlI[i5]['thumb_image']} link={lvlI[i5]['link_to_website']} text={lvlI[i5]['title']} type="1" />
             </div>
         </div>
-    
+
     )
 }
 
 const styles = {
     pin_container: {
-    margin: 0,
-    padding: 0,
-    width: '100vw',
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, 330px)',
-    gridAutoRows: '10px',
-    position: 'absolute',
-    justifyContent: 'center'
+        margin: 0,
+        padding: 0,
+        width: '100vw',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, 330px)',
+        gridAutoRows: '10px',
+        position: 'absolute',
+        justifyContent: 'center'
     }
 }
 
 export default PinterestLayout;
 
-/*export default function PinterestLayout( {level} ) {
-    return <div className="h-[100vh]"></div>
-}*/
