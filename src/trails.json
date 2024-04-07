@@ -1,0 +1,332 @@
+{
+    "beginner_trails": [
+        {
+            "Hike": "Little Qualicum River and Falls",
+            "Image Link": "https://bestever.guide/wp-content/uploads/2021/12/Little-Qualicum-Falls-Lower-Portrait-scaled.jpg",
+            "Length": "1.3km",
+            "Elevation Gain": "42m",
+            "Route Type": "Loop",
+            "Time": "23min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/little-qualicum-falls"
+        },
+        {
+            "Hike": "Stanley Park Seawall",
+            "Image Link": "https://vancouvertips.com/wp-content/uploads/2022/04/Stanley-Park-Seawall-Vancouver-scaled.jpg",
+            "Length": "9.7km",
+            "Elevation Gain": "76m",
+            "Route Type": "Loop",
+            "Time": "1h 58min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/stanley-park-seawall-trail"
+        },
+        {
+            "Hike": "Port Alberni Hole-in-the-Wall",
+            "Image Link": "https://live.staticflickr.com/65535/51682158236_87c749fb1c_b.jpg",
+            "Length": "2.4km",
+            "Elevation Gain": "49m",
+            "Route Type": "Out & Back",
+            "Time": "36min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/port-alberni-hole-in-the-wall"
+        },
+        {
+            "Hike": "Wapta Falls",
+            "Image Link": "https://images.world-of-waterfalls.com/Wapta_Falls_028_09162010.jpg",
+            "Length": "4.8km",
+            "Elevation Gain": "125m",
+            "Route Type": "Out & Back",
+            "Time": "1h 17min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/wapta-falls"
+        },
+        {
+            "Hike": "Bowen Lookout Trail",
+            "Image Link": "https://live.staticflickr.com/65535/47997187211_c179afee91_b.jpg",
+            "Length": "4.7km",
+            "Elevation Gain": "152m",
+            "Route Type": "Out & Back",
+            "Time": "1h 21min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/bowen-lookout-trail"
+        },
+        {
+            "Hike": "Lower Gold Creek Falls Trail",
+            "Image Link": "https://i0.wp.com/besthikesbc.ca/wp-content/uploads/2021/02/DSC01303-3.jpg?fit=2048%2C1381&ssl=1",
+            "Length": "5.3km",
+            "Elevation Gain": "109m",
+            "Route Type": "Out & Back",
+            "Time": "1h 19min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/lower-gold-creek-falls-trail"
+        },
+        {
+            "Hike": "Capilano Canyon and Upper Capilano Trail",
+            "Image Link": "https://i0.wp.com/besthikesbc.ca/wp-content/uploads/2023/02/DSC0770.jpg?fit=2048%2C1365&ssl=1",
+            "Length": "5.8km",
+            "Elevation Gain": "227m",
+            "Route Type": "Loop",
+            "Time": "1h 49min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/capilano-river-regional-park-loop"
+        },
+        {
+            "Hike": "Rice Lake and Lynn Canyon Loop",
+            "Image Link": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Parque_del_ca%C3%B1%C3%B3n_Lynn%2C_Vancouver%2C_Canad%C3%A1%2C_2017-08-14%2C_DD_11.jpg",
+            "Length": "6km",
+            "Elevation Gain": "151m",
+            "Route Type": "Loop",
+            "Time": "1h 34min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/rice-lake-and-lynn-canyon-loop"
+        },
+        {
+            "Hike": "Lost Lake",
+            "Image Link": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/cc/37/9d/photo2jpg.jpg?w=1200&h=1200&s=1",
+            "Length": "4km",
+            "Elevation Gain": "106m",
+            "Route Type": "Loop",
+            "Time": "1h 4min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/lost-lake"
+        },
+        {
+            "Hike": "Four Lakes Trail",
+            "Image Link": "https://www.exploresquamish.com/site/assets/files/14659/img_5332.2400x1364.webp",
+            "Length": "6.3km",
+            "Elevation Gain": "150m",
+            "Route Type": "Loop",
+            "Time": "1h 38min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/four-lakes-trail"
+        },
+        {
+            "Hike": "Stoney Hill Trail Loop",
+            "Image Link": "https://www.travelingislanders.com/wp-content/uploads/2017/06/Stoney-Hill-Trail-Vancouver-Island.jpg",
+            "Length": "3.4km",
+            "Elevation Gain": "109m",
+            "Route Type": "Loop",
+            "Time": "59min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/stoney-hill-trail-loop"
+        },
+        {
+            "Hike": "Tonquin Trail",
+            "Image Link": "https://www.tofinohiking.com/images/photos/tonquin-beach-4.jpg",
+            "Length": "3.7km",
+            "Elevation Gain": "97m",
+            "Route Type": "Out & Back",
+            "Time": "1h",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/tonquin-trail"
+        }
+    ], 
+    "intermediate_trails": [
+        {
+            "Hike": "Saint Mark's Summit ",
+            "Image Link": "https://janameerman.com/wp-content/uploads/2016/07/jana-meerman-st-marks-summit-7.jpg",
+            "Length": "10km",
+            "Elevation Gain": "570m",
+            "Route Type": "Out & Back",
+            "Time": "3h 45min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/saint-marks-summit"
+        },
+        {
+            "Hike": "Tunnel Bluffs from Lions Bays",
+            "Image Link": "https://wandervancouver.com/wp-content/uploads/2019/05/tunnel-bluffs-viewpoint-5332-coralouellette.jpg",
+            "Length": "11.3km",
+            "Elevation Gain": "533m",
+            "Route Type": "Out & Back",
+            "Time": "3h 50min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/tunnel-bluffs-from-lions-bay-alternative-route"
+        },
+        {
+            "Hike": "Quarry Rock Lookout from Deep Cove",
+            "Image Link": "https://yakeandmarie.com/wp-content/uploads/2022/06/quarry-rock-view-1-min-1024x683.jpg",
+            "Length": "3.9km",
+            "Elevation Gain": "206m",
+            "Route Type": "Out & Back",
+            "Time": "1h 24min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/quarry-rock-baden-powell-from-deep-cove"
+        },
+        {
+            "Hike": "Norvan Falls",
+            "Image Link": "https://images.squarespace-cdn.com/content/v1/5c8bf9604d546e57d8241b98/1556906114712-VC6NV9GB3HQ0YOBA76IZ/Norvan+Falls",
+            "Length": "14km",
+            "Elevation Gain": "363m",
+            "Route Type": "Out & Back",
+            "Time": "3h 44min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/norvan-falls"
+        },
+        {
+            "Hike": "Eagle Bluffs via Black Mountain Trail",
+            "Image Link": "https://www.vancouvertrails.com/images/photos/eagle-bluffs-5.jpg",
+            "Length": "7.9km",
+            "Elevation Gain": "437m",
+            "Route Type": "Out & Back",
+            "Time": "2h 55min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/eagleridge-bluffs-via-black-mountain-trail"
+        },
+        {
+            "Hike": "Jug Island Beach Trail",
+            "Image Link": "https://live.staticflickr.com/5738/21048956964_83d2b943e2_h.jpg",
+            "Length": "5.6km",
+            "Elevation Gain": "226m",
+            "Route Type": "Out & Back",
+            "Time": "1h 47min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/jug-island-beach-trail--2"
+        },
+        {
+            "Hike": "Cox Bay Lookout",
+            "Image Link": "https://bestever.guide/wp-content/uploads/2022/08/Cox-Bay-Tofino-Art-scaled.jpg",
+            "Length": "2.6km",
+            "Elevation Gain": "101m",
+            "Route Type": "Out & Back",
+            "Time": "48min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/cox-bay-lookout"
+        },
+        {
+            "Hike": "Lighthouse Park Viewpoint Loop",
+            "Image Link": "https://mrussellphotography.com/blog/photos/2019/point-atkinson-lighthouse-park/lighthouse-park-english-bay-sunset-48109.jpg",
+            "Length": "5.5km",
+            "Elevation Gain": "247m",
+            "Route Type": "Loop",
+            "Time": "1h 49min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/lighthouse-park-viewpoint-loop"
+        },
+        {
+            "Hike": "Burnaby Mountain Park Loop",
+            "Image Link": "https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc2Mjk0ODUyNTg0OTQwNzM0/burnaby-mountain-park-in-burnaby-british-columbia.jpg",
+            "Length": "11.1km",
+            "Elevation Gain": "453m",
+            "Route Type": "Loop",
+            "Time": "3h 32min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/burnaby-mountain-park-full-loop"
+        },
+        {
+            "Hike": "Jocelyn Hill Trail Loop",
+            "Image Link": "https://www.victoriatrails.com/images/photos/jocelyn-hill-caleb-pike-5.jpg",
+            "Length": "9.2km",
+            "Elevation Gain": "445m",
+            "Route Type": "Loop",
+            "Time": "3h 11min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/jocelyn-hill-trail-loop"
+        },
+        {
+            "Hike": "Emerald Lake and Glacier Trail",
+            "Image Link": "https://images.squarespace-cdn.com/content/v1/5d38779bf0610200016f4b50/1613600092500-R0IIXN8WKRSHE7JNKXV0/DSC07144c.jpg",
+            "Length": "10.8km",
+            "Elevation Gain": "275m",
+            "Route Type": "Loop",
+            "Time": "2h 51min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/emerald-lake-and-emerald-glacier-trail"
+        },
+        {
+            "Hike": "Upper Thetis Lake Trail",
+            "Image Link": "https://upload.wikimedia.org/wikipedia/commons/d/da/Thetis_Lake%2C_Canada_01.jpg",
+            "Length": "5.1km",
+            "Elevation Gain": "85m",
+            "Route Type": "Loop",
+            "Time": "1h 12min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/upper-thetis-lake-trail"
+        }
+    ],
+    "hard_trails": [
+        {
+            "Hike Name": "Sea to Summit Trail",
+            "Photo Link": "https://outdoortherapy.ca/wp-content/uploads/2019/06/19-05-Sea-to-Summit-JK-2feat.jpg",
+            "Length": "11.1km",
+            "Elevation Gain": "950m",
+            "Route Type": "Out & Back",
+            "Average Time": "5h 16min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/sea-to-summit-trail"
+        },
+        {
+            "Hike Name": "Grouse Grind Trail",
+            "Photo Link": "https://images.squarespace-cdn.com/content/v1/63c192282f7cbb600030ef45/1675532413974-4QT1XZN5RKKMXB6PCZNL/07-grousegrind-2.jpeg",
+            "Length": "1.9km",
+            "Elevation Gain": "780m",
+            "Route Type": "Point to Point",
+            "Average Time": "1h 42min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/grouse-grind-trail"
+        },
+        {
+            "Hike Name": "Elk Mountain",
+            "Photo Link": "https://i0.wp.com/vancitywild.com/wp-content/uploads/2022/11/ElkMountain-VancityWild-3.jpeg",
+            "Length": "8.2km",
+            "Elevation Gain": "791m",
+            "Route Type": "Out & Back",
+            "Average Time": "4h 12min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/elk-mountain--4"
+        },
+        {
+            "Hike Name": "Garibaldi Lake",
+            "Photo Link": "https://www.tripsavvy.com/thmb/ll1HdunTdI1G59a6FVNos179BB4=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-10056983281-5b613f4d46e0fb0050f1e3bf.jpg",
+            "Length": "18.2km",
+            "Elevation Gain": "979m",
+            "Route Type": "Out & Back",
+            "Average Time": "6h 36min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/garibaldi-lake--2"
+        },
+        {
+            "Hike Name": "Iceline Summit",
+            "Photo Link": "https://bobspirko.ca/Hiking/BC/IcelineSummit/IcelineSummit_0022.jpg",
+            "Length": "15km",
+            "Elevation Gain": "870m",
+            "Route Type": "Out & Back",
+            "Average Time": "5h 41min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/iceline-summit"
+        },
+        {
+            "Hike Name": "Red Heather Meadows to Elfin Lakes",
+            "Photo Link": "https://www.wta.org/site_images/trip-reports/2019/tripreport.image.2019-08-25.3566840245/@@images/e091831e-5b59-4be1-a8b3-fddc169542cb.jpeg",
+            "Length": "20.3km",
+            "Elevation Gain": "812m",
+            "Route Type": "Out & Back",
+            "Average Time": "6h 24min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/red-heather-meadows-to-elfin-lakes"
+        },
+        {
+            "Hike Name": "Diez Vistas and Lake Buntzen Loop",
+            "Photo Link": "https://www.buntzenlake.ca/wp-content/uploads/2014/03/10658730525_69f65714da_b.jpg",
+            "Length": "12.9km",
+            "Elevation Gain": "637m",
+            "Route Type": "Loop",
+            "Average Time": "4h 30min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/diez-vistas-and-lake-buntzen-loop"
+        },
+        {
+            "Hike Name": "Golden Ears Summit Trail",
+            "Photo Link": "https://www.georgephotography.ca/wp-content/gallery/golden-ears-summit/IMG_7022_20220925-scaled.jpg",
+            "Length": "22.5km",
+            "Elevation Gain": "1697m",
+            "Route Type": "Out & Back",
+            "Average Time": "9h 54min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/golden-ears-trail"
+        },
+        {
+            "Hike Name": "Frosty Mountain Trail",
+            "Photo Link": "https://trailwhisperer.ca/wp-content/uploads/2023/01/cover.jpeg",
+            "Length": "20.9km",
+            "Elevation Gain": "1231m",
+            "Route Type": "Out & Back",
+            "Average Time": "7h 59min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/frosty-mountain-trail"
+        },
+        {
+            "Hike Name": "Black Mountain Loop",
+            "Photo Link": "https://www.hikingtheappalachians.com/uploads/2/4/2/9/24290352/dsc-4003_orig.jpg",
+            "Length": "5.3km",
+            "Elevation Gain": "358m",
+            "Route Type": "Loop",
+            "Average Time": "2h 11min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/black-mountain-loop--3"
+        },
+        {
+            "Hike Name": "Mount Benson from Benson View Road",
+            "Photo Link": "https://ehq-production-canada.imgix.net/projects/images/a3b5231995fcb9ce2dee1d4129bb5534da0b5e55/000/004/387/original/Mt_Benson_view.jpg?auto=compress%2Cformat&w=1080",
+            "Length": "6.4km",
+            "Elevation Gain": "700m",
+            "Route Type": "Out & Back",
+            "Average Time": "3h 34min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/mount-benson-from-benson-view-road"
+        },
+        {
+            "Hike Name": "Hollyburn Peak",
+            "Photo Link": "https://www.vancouvertrails.com/images/photos/hollyburn-mountain-6.jpg",
+            "Length": "6.3km",
+            "Elevation Gain": "422m",
+            "Route Type": "Out & Back",
+            "Average Time": "2h 35min",
+            "Info Link": "https://www.alltrails.com/trail/canada/british-columbia/hollyburn-peak-via-winter-access-trail"
+        }
+    ]
+}
