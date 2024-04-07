@@ -8,47 +8,24 @@ export default function Modal({ setShowModal }) {
     const handleChange = async (e) => {
         setShowModal(false);
 
+
         const modelURL = tmURL + "model.json";
         const metadataURL = tmURL + "metadata.json";
         let model = await tmImage.load(modelURL, metadataURL);
         
         let files = e.target.files;
-
-        let totalProbabilities = {
-            'Indoor': 0,
-            'Nature': 0,
-            'City': 0,
-        };
-
-        const processFile = async (file) => {
+        for (let file of files) {
             const imageUrl = URL.createObjectURL(file);
             const img = new Image();
             img.src = imageUrl;
-    
-            await new Promise((resolve, reject) => {
-                img.onload = async () => {
-                    await tf.nextFrame();
-                    const prediction = await model.predict(img);
-    
-                    // Update the total probabilities
-                    prediction.forEach(pred => {
-                        totalProbabilities[pred.className] += pred.probability;
-                    });
-    
-                    resolve();
-                };
-                img.onerror = reject;
-            });
-        };
 
-        for (const file of files) {
-            await processFile(file); // Ensure processing happens sequentially
+            img.onload = async () => {
+                await tf.nextFrame();
+                const prediction = await model.predict(img);
+                console.log(prediction);
+            };
+
         }
-    
-        // After processing all files, find the dominant class
-        const dominantClass = Object.keys(totalProbabilities).reduce((a, b) => totalProbabilities[a] > totalProbabilities[b] ? a : b);
-    
-        console.log("Dominant:", dominantClass);
 
     }
 
