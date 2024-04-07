@@ -1,23 +1,24 @@
 @font-face {
-    font-family: "hg-regular";
-    src: url('../assets/fonts/HindGuntur-Regular.ttf') format("truetype");
-}
-
-@font-face {
     font-family: "hg-semibold";
     src: url('../assets/fonts/HindGuntur-SemiBold.ttf') format("truetype");
 }
 
-.modalTitle {
-    font-family: "hg-semibold";
-    font-size: 5vh;
+@font-face {
+    font-family: "hg-bold";
+    src: url('../assets/fonts/HindGuntur-Bold.ttf') format("truetype");
+}
+
+.modal-title {
+    font-family: "hg-bold";
+    font-size: 6vh;
     line-height: 1;
 }
 
-.myFont {
-    font-family: "hg-regular";
-    font-size: 3vh;
+.my-font {
+    font-family: "hg-semibold";
+    font-size: 4vh;
     line-height: 1;
+    margin-top: 8vh;
 }
 
 .upload {
@@ -25,11 +26,19 @@
 }
 
 .custom-upload {
-    border: 2px solid #C2DEC4;
+    background-color: white;
     display: inline-block;
-    padding: 1vh 2vh;
+    padding: 1.5vh 3vh;
     cursor: pointer;
     border-radius: 1vh;
-    margin-top: 3vh;
+    margin-top: 5vh;
     font-size: large;
+}
+
+.drop-shadow {
+    filter: drop-shadow(0 0 1rem black);
+}
+
+.background {
+    background-image: url("../assets/images/modalBackground.svg");
 }

@@ -1,12 +1,13 @@
 @font-face {
-    font-family: "hg-regular";
-    src: url('../assets/fonts/HindGuntur-Regular.ttf') format("truetype");
-}
-
-@font-face {
     font-family: "hg-semibold";
     src: url('../assets/fonts/HindGuntur-SemiBold.ttf') format("truetype");
 }
+
+@font-face {
+    font-family: "hg-bold";
+    src: url('../assets/fonts/HindGuntur-Bold.ttf') format("truetype");
+}
+
 
 .slider {
     overflow: hidden;
@@ -28,21 +29,25 @@
 
 .slider .slide:nth-child(1) {
     background-image: url('https://source.unsplash.com/YbbRa8ROM6c');
+    filter: brightness(60%);
 }
 
 .slider .slide:nth-child(2) {
     background-image: url('https://source.unsplash.com/oKu7lNQUDmI');
     animation-delay: -2.5s;
+    filter: brightness(60%);
 }
 
 .slider .slide:nth-child(3) {
     background-image: url('https://source.unsplash.com/aL7SA1ASVdQ');
     animation-delay: -5s;
+    filter: brightness(60%);
 }
 
 .slider .slide:nth-child(4) {
     background-image: url('https://source.unsplash.com/de0P588zgls');
     animation-delay: -7.5s;
+    filter: brightness(60%);
 }
 
 @keyframes slider {
@@ -71,30 +76,23 @@
     transform: translate(-50%, -50%);
 }
 
-.text {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 3vh;
-    padding-top: 5vh;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    border-radius: 4vh;
-    box-shadow: 0 0 3vh 1vh rgba(255, 255, 255, 0.65);
-}
-
 .title {
-    font-family: "hg-semibold";
+    font-family: "hg-bold";
     font-size: 10vh;
     line-height: 1;
+    color: white;
 }
 
 .subtitle {
-    font-family: "hg-regular";
+    font-family: "hg-semibold";
     font-size: 3.5vh;
     line-height: 1;
+    margin-top: 0.5rem;
+    color: white;
 }
 
 .instructions {
-    font-family: "hg-regular";
+    font-family: "hg-semibold";
     font-size: 3vh;
     background-color: white;
     padding-bottom: 1vh;
@@ -102,6 +100,6 @@
     padding-left: 3vh;
     padding-right: 3vh;
     border-radius: 2vh;
-    margin-top: 5vh;
+    margin-top: 7vh;
     filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.8));
 }
