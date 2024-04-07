@@ -30,15 +30,17 @@ function PinterestLayout(props) {
     let lvlT;
     let lvlI;
 
-    if (props.level === "1") {
-        lvlT = trails.beginner_trails;
-        lvlI = items.beginner_items;
-    } else if (props.level === "2") {
+    console.log("LEVEL = " + props.level);
+
+    if (props.level === 3) {
+        lvlT = trails.hard_trails;
+        lvlI = items.hard_items;
+    } else if (props.level === 2) {
         lvlT = trails.intermediate_trails;
         lvlI = items.intermediate_items;
     } else {
-        lvlT = trails.hard_trails;
-        lvlI = items.hard_items;
+        lvlT = trails.beginner_trails;
+        lvlI = items.beginner_items;
     }
 
     return (
