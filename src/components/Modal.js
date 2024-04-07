@@ -2,20 +2,22 @@ import "./Modal.css";
 import * as tf from '@tensorflow/tfjs';
 import * as tmImage from '@teachablemachine/image';
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export default function Modal({ setLevel, setShowModal }) {
     const navigate = useNavigate();
+    const [loading, setLoading] = useState(false);
     const tmURL = "https://teachablemachine.withgoogle.com/models/3uvWWMlZR/";
 
     const handleChange = async (e) => {
-        setShowModal(false);
-
+        setLoading(true);
 
         const modelURL = tmURL + "model.json";
         const metadataURL = tmURL + "metadata.json";
         let model = await tmImage.load(modelURL, metadataURL);
-        
+
         let files = e.target.files;
+        let predictions = [];
         for (let file of files) {
             const imageUrl = URL.createObjectURL(file);
             const img = new Image();
@@ -24,15 +26,22 @@ export default function Modal({ setLevel, setShowModal }) {
             img.onload = async () => {
                 await tf.nextFrame();
                 const prediction = await model.predict(img);
-                // TEMP, needs changes
-                setLevel(prediction);
-                console.log(prediction);
+                predictions.push(prediction);
+
+                if (predictions.length === files.length) {
+                    // setLevel() here, set as 1, 2, 3
+                    setLoading(false);
+                    setShowModal(false);
+                    navigate("/starter-pack");
+                }
             };
 
         }
 
-        navigate("/starter-pack");
+    }
 
+    if (loading) {
+        return <div className="h-[70vh] w-[70vw] bg-white absolute">loading</div>
     }
 
     return (
@@ -51,7 +60,7 @@ export default function Modal({ setLevel, setShowModal }) {
                         upload
                     </label>
                     <input type="file" multiple id="customUpload" name="customUpload" accept="image/jpeg, image/jpg" className="upload"
-                           onChange={handleChange}
+                        onChange={handleChange}
                     />
                 </div>
             </div>
