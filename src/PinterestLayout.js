@@ -5,7 +5,11 @@ import items from './items.json';
 // type is 0 for trails
 // type is 1 for items
 
-function PinterestLayout() {
+// level = 1 = beginner
+// level = 2 = intermediate
+// level = 3 = hard
+
+function PinterestLayout(props) {
     function randomNumGen(min, max) {
         return Math.floor(Math.random()
             * (max - min + 1)) + min;
@@ -23,6 +27,20 @@ function PinterestLayout() {
     const t2 = randomNumGen(0, 3) + 4;
     const t3 = randomNumGen(0, 3) + 8;
 
+    let lvlT;
+    let lvlI;
+
+    if (props.level === "1") {
+        lvlT = trails.beginner_trails;
+        lvlI = items.beginner_items;
+    } else if (props.level === "2") {
+        lvlT = trails.intermediate_trails;
+        lvlI = items.intermediate_items;
+    } else {
+        lvlT = trails.hard_trails;
+        lvlI = items.hard_items;
+    }
+
     return (
         <div>
             <div className = "text-7xl m-10">
@@ -30,21 +48,21 @@ function PinterestLayout() {
             </div>
             <div style={styles.pin_container}>
                 {/* trail */}
-                <Pin size = {trails.beginner_trails[t1]['size']} image = {trails.beginner_trails[t1]['Image Link']} link = {trails.beginner_trails[t1]['Info Link']} text = {trails.beginner_trails[t1]['Hike']} type = "0"/>
+                <Pin size = {lvlT[t1]['size']} image = {lvlT[t1]['Image Link']} link = {lvlT[t1]['Info Link']} text = {lvlT[t1]['Hike']} type = "0"/>
                 {/* item */}
-                <Pin size = {items.intermediate_items[i1]['size']} image = {items.intermediate_items[i1]['thumb_image']} link = {items.intermediate_items[i1]['link_to_website']} text = {items.intermediate_items[i1]['title']} type = "1" />
+                <Pin size = {lvlI[i1]['size']} image = {lvlI[i1]['thumb_image']} link = {lvlI[i1]['link_to_website']} text = {lvlI[i1]['title']} type = "1" />
                 {/* trail */}
-                <Pin size = {trails.beginner_trails[t2]['size']} image = {trails.beginner_trails[t2]['Image Link']} link = {trails.beginner_trails[t2]['Info Link']} text = {trails.beginner_trails[t2]['Hike']} type = "0"/>
+                <Pin size = {lvlT[t2]['size']} image = {lvlT[t2]['Image Link']} link = {lvlT[t2]['Info Link']} text = {lvlT[t2]['Hike']} type = "0"/>
                 {/* item */}
-                <Pin size = {items.intermediate_items[i2]['size']} image = {items.intermediate_items[i2]['thumb_image']} link = {items.intermediate_items[i2]['link_to_website']} text = {items.intermediate_items[i2]['title']} type = "1" />
+                <Pin size = {lvlI[i2]['size']} image = {lvlI[i2]['thumb_image']} link = {lvlI[i2]['link_to_website']} text = {lvlI[i2]['title']} type = "1" />
                 {/* item */}
-                <Pin size = {items.intermediate_items[i3]['size']} image = {items.intermediate_items[i3]['thumb_image']} link = {items.intermediate_items[i3]['link_to_website']} text = {items.intermediate_items[i3]['title']} type = "1" />
+                <Pin size = {lvlI[i3]['size']} image = {lvlI[i3]['thumb_image']} link = {lvlI[i3]['link_to_website']} text = {lvlI[i3]['title']} type = "1" />
                 {/* item */}
-                <Pin size = {items.intermediate_items[i4]['size']} image = {items.intermediate_items[i4]['thumb_image']} link = {items.intermediate_items[i4]['link_to_website']} text = {items.intermediate_items[i4]['title']} type = "1" />
+                <Pin size = {lvlI[i4]['size']} image = {lvlI[i4]['thumb_image']} link = {lvlI[i4]['link_to_website']} text = {lvlI[i4]['title']} type = "1" />
                 {/* trail */}
-                <Pin size = {trails.beginner_trails[t3]['size']} image = {trails.beginner_trails[t3]['Image Link']} link = {trails.beginner_trails[t3]['Info Link']} text = {trails.beginner_trails[t3]['Hike']} type = "0"/>
+                <Pin size = {lvlT[t3]['size']} image = {lvlT[t3]['Image Link']} link = {lvlT[t3]['Info Link']} text = {lvlT[t3]['Hike']} type = "0"/>
                 {/* item */}
-                <Pin size = {items.intermediate_items[i5]['size']} image = {items.intermediate_items[i5]['thumb_image']} link = {items.intermediate_items[i5]['link_to_website']} text = {items.intermediate_items[i5]['title']} type = "1" />
+                <Pin size = {lvlI[i5]['size']} image = {lvlI[i5]['thumb_image']} link = {lvlI[i5]['link_to_website']} text = {lvlI[i5]['title']} type = "1" />
             </div>
         </div>
     
