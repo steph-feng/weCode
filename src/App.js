@@ -4,7 +4,7 @@ import PinterestLayout from './PinterestLayout';
 function App() {
   return (
     <div className="App">
-      <PinterestLayout level = "3"/>
+      <PinterestLayout level = "1"/>
     </div>
   );
 }
