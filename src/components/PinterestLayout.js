@@ -50,7 +50,7 @@ function PinterestLayout(props) {
                 <div className="text-7xl mt-10 mx-10 layoutTitle">
                     YOUR ARC'VENTURE STARTER PACK
                 </div>
-                <div className='layoutSubtitle'>
+                <div className='layoutSubtitle' style={levelColours[props.level]}>
                     LEVEL {props.level} ARC'VENTURER
                 </div>
             </div>
@@ -88,6 +88,18 @@ const styles = {
         gridAutoRows: '10px',
         position: 'absolute',
         justifyContent: 'center'
+    }
+}
+
+const levelColours = {
+    1: {
+        color: "#6DC283"
+    },
+    2: {
+        color: "#459359"
+    },
+    3: {
+        color: "#2F673E"
     }
 }
 
