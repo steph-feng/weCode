@@ -240,7 +240,7 @@
             "thumb_image": "https://images.arcteryx.com/S24/1350x1710/Vertex-Alpine-GTX-Shoe-W-Black-Black.jpg",
             "link_to_website": "https://arcteryx.com/ca/en/shop/womens/vertex-alpine-gtx-shoe",
             "title": "Vertex Alpine GTX Shoe Women's", 
-            "size": "large"
+            "size": "medium"
         },
         {
             "hover_image": "https://images.arcteryx.com/details/1350x1710/S24-X000007759-Clarkia-Wide-Leg-Pant-Black-Women-s-Hover.jpg",
@@ -275,7 +275,7 @@
             "thumb_image": "https://images.arcteryx.com/S24/1350x1710/AR-385a-Harness-W-Yukon-Amaranthus-Edziza.jpg",
             "link_to_website": "https://arcteryx.com/ca/en/shop/womens/ar-385a-harness",
             "title": "AR-385a Harness Women's", 
-            "size": "large"
+            "size": "medium"
         },
         {
             "hover_image": "https://images.arcteryx.com/details/1350x1710/S24-X000007692-Silene-Crew-Shirt-SS-Velocity-Heather-Women-s-Hover.jpg",
@@ -317,7 +317,7 @@
             "thumb_image": "https://images.arcteryx.com/F23/1350x1710/Skaha-Harness-W-Lampyre-Boxcar.jpg",
             "link_to_website": "https://arcteryx.com/ca/en/shop/womens/skaha-harness",
             "title": "Skaha Harness Women's", 
-            "size": "large"
+            "size": "medium"
         }
     ]
 }
