@@ -18,7 +18,7 @@ export default function LandingPage( {setLevel} ) {
                         ARC'VENTURE
                     </div>
                     <div className='subtitle'>
-                        Explore the West Coast with Arc'teryx
+                        Explore the West Coast with ARC'TERYX
                     </div>
                 </div>
 
