@@ -1,3 +1,4 @@
+# ARC'VENTURE
 ## Inspiration
 * Personality quizzes that reveal something about the user
 * Arc’teryx’s brand and its emphasis on wellness through outdoor activities 
@@ -30,3 +31,14 @@ We used many technologies for the first time, so while there was a learning curv
 * Social media compatibility: Accept Instagram handles and scrape accounts for images to analyze 
 * Improve TF model: Create more classes that are biome-specific, weather-specific, and that recognize activities 
 * Grow database: Automate product and trail database generation to suggest more targeted ARC’TERYX products and location specific trails
+
+## Attributions
+https://web.sas.upenn.edu/upennidb/albums/ 
+https://www.kaggle.com/datasets/robinreni/house-rooms-image-dataset 
+https://figshare.com/articles/dataset/Indoor-Outdoor_dataset/4595323
+https://makeagif.com/gif/growing-tree-FfVonI
+https://bcnature.org/protect-nature/
+https://www.naturallywood.com/resource/forest-certification-in-bc/
+https://secretvancouver.co/opening-day-bc-ski-resorts/
+https://www2.gov.bc.ca/gov/content/industry/forestry/our-forests-our-future
+https://whereissarahblog.com/hiking-trails-british-columbia/
