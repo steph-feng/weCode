@@ -70,8 +70,8 @@ export default function Modal({ setLevel, setShowModal }) {
 
     if (loading) {
         return (
-            <div className="h-[80vh] w-[80vw] bg-white absolute flex flex-col justify-center items-center rounded-2xl drop-shadow">
-                <img src={treeGif} />
+            <div className="h-[80vh] w-[80vw] bg-[#fbffff] absolute flex flex-col justify-center items-center rounded-2xl drop-shadow">
+                <img src={treeGif} alt="loadng gif"/>
                 <div className="my-font">Calculating your ARC'VENTURE level.</div>
             </div>
         )
