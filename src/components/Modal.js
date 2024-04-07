@@ -3,7 +3,6 @@ import "./Modal.css"
 export default function Modal({ setShowModal }) {
 
     const handleChange = () => {
-        console.log("changed")
         setShowModal(false);
     }
 
@@ -15,7 +14,7 @@ export default function Modal({ setShowModal }) {
 
             <div className="flex flex-col mt-52 ">
                 <div className="flex flex-col items-center justify-center">
-                    <div className="title">
+                    <div className="modalTitle">
                         you, but in five photos
                     </div>
 
