@@ -1,8 +1,10 @@
 import "./Modal.css";
 import * as tf from '@tensorflow/tfjs';
 import * as tmImage from '@teachablemachine/image';
+import { useNavigate } from "react-router-dom";
 
-export default function Modal({ setShowModal }) {
+export default function Modal({ setLevel, setShowModal }) {
+    const navigate = useNavigate();
     const tmURL = "https://teachablemachine.withgoogle.com/models/3uvWWMlZR/";
 
     const handleChange = async (e) => {
@@ -22,10 +24,14 @@ export default function Modal({ setShowModal }) {
             img.onload = async () => {
                 await tf.nextFrame();
                 const prediction = await model.predict(img);
+                // TEMP, needs changes
+                setLevel(prediction);
                 console.log(prediction);
             };
 
         }
+
+        navigate("/starter-pack");
 
     }
 

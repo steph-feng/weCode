@@ -2,7 +2,7 @@ import './LandingPage.css'
 import Modal from './Modal'
 import { useState } from 'react'
 
-export default function LandingPage() {
+export default function LandingPage( {setLevel} ) {
     const [showModal, setShowModal] = useState(false);
     return (
         <div className="slider h-[100vh]">
@@ -23,7 +23,7 @@ export default function LandingPage() {
                 </div>
 
                 <button className='instructions' onClick={() => setShowModal(true)}>Get Started</button>
-                {showModal && <Modal setShowModal={setShowModal}/>}
+                {showModal && <Modal setLevel={setLevel} setShowModal={setShowModal}/>}
             </div>
         </div>
     )
