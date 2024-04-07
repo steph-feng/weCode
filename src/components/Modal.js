@@ -1,9 +1,27 @@
-import "./Modal.css"
+import "./Modal.css";
+import * as tf from '@tensorflow/tfjs';
+import * as tmImage from '@teachablemachine/image';
 
 export default function Modal({ setShowModal }) {
+    const tmURL = "https://teachablemachine.withgoogle.com/models/3uvWWMlZR/";
 
-    const handleChange = () => {
+    const handleChange = async (e) => {
         setShowModal(false);
+
+
+        const modelURL = tmURL + "model.json";
+        const metadataURL = tmURL + "metadata.json";
+        let model = await tmImage.load(modelURL, metadataURL);
+        
+        let files = e.target.files;
+        for (let file of files) {
+            let imageUrl = URL.createObjectURL(file);
+            let img = new Image();
+            img.src = imageUrl;
+            const prediction = await model.predict(img);
+            console.log(prediction);
+        }
+
     }
 
     return (
