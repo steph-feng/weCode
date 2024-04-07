@@ -17,27 +17,57 @@ export default function Modal({ setLevel, setShowModal }) {
         let model = await tmImage.load(modelURL, metadataURL);
 
         let files = e.target.files;
-        let predictions = [];
-        for (let file of files) {
+
+        let totalProbabilities = {
+            'Indoor': 0,
+            'Nature': 0,
+            'City': 0,
+        };
+
+        //let predictions = [];
+
+        const processFile = async (file) => {
             const imageUrl = URL.createObjectURL(file);
             const img = new Image();
             img.src = imageUrl;
+    
+            await new Promise((resolve, reject) => {
+                img.onload = async () => {
+                    await tf.nextFrame();
+                    const prediction = await model.predict(img);
+                    //predictions.push(prediction);
+    
+                    // Update the total probabilities
+                    prediction.forEach(pred => {
+                        totalProbabilities[pred.className] += pred.probability;
+                    });
+    
+                    resolve();
+                };
+                img.onerror = reject;
+            });
+        };
 
-            img.onload = async () => {
-                await tf.nextFrame();
-                const prediction = await model.predict(img);
-                predictions.push(prediction);
+        for (const file of files) {
+            await processFile(file); // Ensure processing happens sequentially
+        }
+    
+        // After processing all files, find the dominant class
+        const dominantClass = Object.keys(totalProbabilities).reduce((a, b) => totalProbabilities[a] > totalProbabilities[b] ? a : b);
+    
+        console.log("Dominant:", dominantClass);
 
-                if (predictions.length === files.length) {
-                    // setLevel() here, set as 1, 2, 3
-                    setLoading(false);
-                    setShowModal(false);
-                    navigate("/starter-pack");
-                }
-            };
-
+        if (dominantClass === "Nature") {
+            setLevel(3);
+        } else if (dominantClass === "City") {
+            setLevel(2);
+        } else {
+            setLevel(1);
         }
 
+        setLoading(false);
+        setShowModal(false);
+        navigate("/starter-pack");
     }
 
     if (loading) {
