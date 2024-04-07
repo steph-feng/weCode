@@ -30,7 +30,7 @@ function PinterestLayout(props) {
     let lvlT;
     let lvlI;
 
-    console.log("LEVEL = " + props.level);
+    // for debugging: console.log("LEVEL = " + props.level);
 
     if (props.level === 3) {
         lvlT = trails.hard_trails;
