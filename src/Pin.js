@@ -10,8 +10,10 @@ function Pin(props) {
             ...styles[props.size]}}
         >
             <a href = {props.link} >
-            <div style={{filter: isHovered? 'brightness(0.5)': 'brightness(1)', backgroundImage: `url(${props.image})`, backgroundSize: 'cover'}} className='h-full w-full  text-white' onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}> {isHovered && <p>{props.text}</p>} </div>
+            <div style={{filter: isHovered? 'brightness(0.5)': 'brightness(1)', backgroundImage: `url(${props.image})`, backgroundSize: 'cover'}} className='h-full w-full text-pink-300 rounded-lg text-center text-lg' onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}> 
+                    {isHovered && <p>{props.text}</p>} 
+                </div>
             </a>
         </div>
     );
