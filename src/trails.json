@@ -245,8 +245,8 @@
     ],
     "hard_trails": [
         {
-            "Hike Name": "Sea to Summit Trail",
-            "Photo Link": "https://outdoortherapy.ca/wp-content/uploads/2019/06/19-05-Sea-to-Summit-JK-2feat.jpg",
+            "Hike": "Sea to Summit Trail",
+            "Image Link": "https://outdoortherapy.ca/wp-content/uploads/2019/06/19-05-Sea-to-Summit-JK-2feat.jpg",
             "Length": "11.1km",
             "Elevation Gain": "950m",
             "Route Type": "Out & Back",
@@ -255,8 +255,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Grouse Grind Trail",
-            "Photo Link": "https://images.squarespace-cdn.com/content/v1/63c192282f7cbb600030ef45/1675532413974-4QT1XZN5RKKMXB6PCZNL/07-grousegrind-2.jpeg",
+            "Hike": "Grouse Grind Trail",
+            "Image Link": "https://images.squarespace-cdn.com/content/v1/63c192282f7cbb600030ef45/1675532413974-4QT1XZN5RKKMXB6PCZNL/07-grousegrind-2.jpeg",
             "Length": "1.9km",
             "Elevation Gain": "780m",
             "Route Type": "Point to Point",
@@ -265,8 +265,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Elk Mountain",
-            "Photo Link": "https://i0.wp.com/vancitywild.com/wp-content/uploads/2022/11/ElkMountain-VancityWild-3.jpeg",
+            "Hike": "Elk Mountain",
+            "Image Link": "https://i0.wp.com/vancitywild.com/wp-content/uploads/2022/11/ElkMountain-VancityWild-3.jpeg",
             "Length": "8.2km",
             "Elevation Gain": "791m",
             "Route Type": "Out & Back",
@@ -275,8 +275,8 @@
             "size": "large"
         },
         {
-            "Hike Name": "Garibaldi Lake",
-            "Photo Link": "https://www.tripsavvy.com/thmb/ll1HdunTdI1G59a6FVNos179BB4=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-10056983281-5b613f4d46e0fb0050f1e3bf.jpg",
+            "Hike": "Garibaldi Lake",
+            "Image Link": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk5OTA0NDIvMGRmNzJlOTliZTk4Y2U2YmM2MGJhM2UwYWQ1M2E3ZTMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
             "Length": "18.2km",
             "Elevation Gain": "979m",
             "Route Type": "Out & Back",
@@ -285,8 +285,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Iceline Summit",
-            "Photo Link": "https://bobspirko.ca/Hiking/BC/IcelineSummit/IcelineSummit_0022.jpg",
+            "Hike": "Iceline Summit",
+            "Image Link": "https://bobspirko.ca/Hiking/BC/IcelineSummit/IcelineSummit_0022.jpg",
             "Length": "15km",
             "Elevation Gain": "870m",
             "Route Type": "Out & Back",
@@ -295,8 +295,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Red Heather Meadows to Elfin Lakes",
-            "Photo Link": "https://www.wta.org/site_images/trip-reports/2019/tripreport.image.2019-08-25.3566840245/@@images/e091831e-5b59-4be1-a8b3-fddc169542cb.jpeg",
+            "Hike": "Red Heather Meadows to Elfin Lakes",
+            "Image Link": "https://www.wta.org/site_images/trip-reports/2019/tripreport.image.2019-08-25.3566840245/@@images/e091831e-5b59-4be1-a8b3-fddc169542cb.jpeg",
             "Length": "20.3km",
             "Elevation Gain": "812m",
             "Route Type": "Out & Back",
@@ -305,8 +305,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Diez Vistas and Lake Buntzen Loop",
-            "Photo Link": "https://www.buntzenlake.ca/wp-content/uploads/2014/03/10658730525_69f65714da_b.jpg",
+            "Hike": "Diez Vistas and Lake Buntzen Loop",
+            "Image Link": "https://www.buntzenlake.ca/wp-content/uploads/2014/03/10658730525_69f65714da_b.jpg",
             "Length": "12.9km",
             "Elevation Gain": "637m",
             "Route Type": "Loop",
@@ -315,8 +315,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Golden Ears Summit Trail",
-            "Photo Link": "https://www.georgephotography.ca/wp-content/gallery/golden-ears-summit/IMG_7022_20220925-scaled.jpg",
+            "Hike": "Golden Ears Summit Trail",
+            "Image Link": "https://www.georgephotography.ca/wp-content/gallery/golden-ears-summit/IMG_7022_20220925-scaled.jpg",
             "Length": "22.5km",
             "Elevation Gain": "1697m",
             "Route Type": "Out & Back",
@@ -325,8 +325,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Frosty Mountain Trail",
-            "Photo Link": "https://trailwhisperer.ca/wp-content/uploads/2023/01/cover.jpeg",
+            "Hike": "Frosty Mountain Trail",
+            "Image Link": "https://trailwhisperer.ca/wp-content/uploads/2023/01/cover.jpeg",
             "Length": "20.9km",
             "Elevation Gain": "1231m",
             "Route Type": "Out & Back",
@@ -335,8 +335,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Black Mountain Loop",
-            "Photo Link": "https://www.hikingtheappalachians.com/uploads/2/4/2/9/24290352/dsc-4003_orig.jpg",
+            "Hike": "Black Mountain Loop",
+            "Image Link": "https://www.hikingtheappalachians.com/uploads/2/4/2/9/24290352/dsc-4003_orig.jpg",
             "Length": "5.3km",
             "Elevation Gain": "358m",
             "Route Type": "Loop",
@@ -345,8 +345,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Mount Benson from Benson View Road",
-            "Photo Link": "https://ehq-production-canada.imgix.net/projects/images/a3b5231995fcb9ce2dee1d4129bb5534da0b5e55/000/004/387/original/Mt_Benson_view.jpg?auto=compress%2Cformat&w=1080",
+            "Hike": "Mount Benson from Benson View Road",
+            "Image Link": "https://ehq-production-canada.imgix.net/projects/images/a3b5231995fcb9ce2dee1d4129bb5534da0b5e55/000/004/387/original/Mt_Benson_view.jpg?auto=compress%2Cformat&w=1080",
             "Length": "6.4km",
             "Elevation Gain": "700m",
             "Route Type": "Out & Back",
@@ -355,8 +355,8 @@
             "size": "small"
         },
         {
-            "Hike Name": "Hollyburn Peak",
-            "Photo Link": "https://www.vancouvertrails.com/images/photos/hollyburn-mountain-6.jpg",
+            "Hike": "Hollyburn Peak",
+            "Image Link": "https://www.vancouvertrails.com/images/photos/hollyburn-mountain-6.jpg",
             "Length": "6.3km",
             "Elevation Gain": "422m",
             "Route Type": "Out & Back",
