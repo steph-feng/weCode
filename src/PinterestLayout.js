@@ -2,22 +2,49 @@ import React from 'react';
 import Pin from './Pin';
 import trails from './trails.json';
 import items from './items.json';
+// type is 0 for trails
+// type is 1 for items
 
 function PinterestLayout() {
+    function randomNumGen(min, max) {
+        return Math.floor(Math.random()
+            * (max - min + 1)) + min;
+    };
+
+    // generate items
+    const i1 = randomNumGen(0, 2);
+    const i2 = randomNumGen(0, 2) + 3;
+    const i3 = randomNumGen(0, 2) + 6;
+    const i4 = randomNumGen(0, 2) + 9;
+    const i5 = randomNumGen(0, 2) + 12;
+    
+    // generate trails
+    const t1 = randomNumGen(0, 3);
+    const t2 = randomNumGen(0, 3) + 4;
+    const t3 = randomNumGen(0, 3) + 8;
+
     return (
         <div>
             <div className = "text-7xl m-10">
                 Your Arc'venture Starter Pack
             </div>
             <div style={styles.pin_container}>
-                <Pin size = {trails.beginner_trails[1]['size']} image = {trails.beginner_trails[1]['Image Link']} link = {trails.beginner_trails[1]['Info Link']} text = {trails.beginner_trails[1]['Hike']}/>
-                <Pin size = {items.intermediate_items[1]['size']} image = {items.intermediate_items[1]['thumb_image']} link = {items.intermediate_items[1]['link_to_website']} text = {items.intermediate_items[1]['title']} />
-                <Pin size = "large" image = "https://i.pinimg.com/474x/76/e4/cd/76e4cd4d3b44dc51ac775a664f55c8cf.jpg"/>
-                <Pin size = "small" image = "https://i.pinimg.com/474x/06/fd/99/06fd990cea38cf817681ca479ae322fe.jpg"/>
-                <Pin size = "medium" image = "https://i.pinimg.com/474x/97/c5/70/97c570ea99186e27ee1ac53e60d6014f.jpg"/>
-                <Pin size = "large" image = "https://i.pinimg.com/474x/2f/cb/76/2fcb76ac0eabfa6c6f5d3bd6d90b3678.jpg"/>
-                <Pin size = "large" image = "https://i.pinimg.com/474x/a2/e4/8b/a2e48bf80067dbd043d5357760cc8b3b.jpg"/>
-                <Pin size = "medium" image = "https://i.pinimg.com/474x/61/05/28/61052801a9b33f9e90381d84bad48217.jpg"/>
+                {/* trail */}
+                <Pin size = {trails.beginner_trails[t1]['size']} image = {trails.beginner_trails[t1]['Image Link']} link = {trails.beginner_trails[t1]['Info Link']} text = {trails.beginner_trails[t1]['Hike']} type = "0"/>
+                {/* item */}
+                <Pin size = {items.intermediate_items[i1]['size']} image = {items.intermediate_items[i1]['thumb_image']} link = {items.intermediate_items[i1]['link_to_website']} text = {items.intermediate_items[i1]['title']} type = "1" />
+                {/* trail */}
+                <Pin size = {trails.beginner_trails[t2]['size']} image = {trails.beginner_trails[t2]['Image Link']} link = {trails.beginner_trails[t2]['Info Link']} text = {trails.beginner_trails[t2]['Hike']} type = "0"/>
+                {/* item */}
+                <Pin size = {items.intermediate_items[i2]['size']} image = {items.intermediate_items[i2]['thumb_image']} link = {items.intermediate_items[i2]['link_to_website']} text = {items.intermediate_items[i2]['title']} type = "1" />
+                {/* item */}
+                <Pin size = {items.intermediate_items[i3]['size']} image = {items.intermediate_items[i3]['thumb_image']} link = {items.intermediate_items[i3]['link_to_website']} text = {items.intermediate_items[i3]['title']} type = "1" />
+                {/* item */}
+                <Pin size = {items.intermediate_items[i4]['size']} image = {items.intermediate_items[i4]['thumb_image']} link = {items.intermediate_items[i4]['link_to_website']} text = {items.intermediate_items[i4]['title']} type = "1" />
+                {/* trail */}
+                <Pin size = {trails.beginner_trails[t3]['size']} image = {trails.beginner_trails[t3]['Image Link']} link = {trails.beginner_trails[t3]['Info Link']} text = {trails.beginner_trails[t3]['Hike']} type = "0"/>
+                {/* item */}
+                <Pin size = {items.intermediate_items[i5]['size']} image = {items.intermediate_items[i5]['thumb_image']} link = {items.intermediate_items[i5]['link_to_website']} text = {items.intermediate_items[i5]['title']} type = "1" />
             </div>
         </div>
     
@@ -33,10 +60,7 @@ const styles = {
     gridTemplateColumns: 'repeat(auto-fill, 330px)',
     gridAutoRows: '10px',
     position: 'absolute',
-    // left: '50%',
-    // transform: 'translateX(-50%)',
     justifyContent: 'center'
-    // backgroundColor: 'black'
     }
 }
 

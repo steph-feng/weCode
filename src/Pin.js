@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 
 function Pin(props) {
     const [isHovered, setIsHovered] = useState(false);
+    const textCol = (props.type == "0")? "white" : "black";
 
     return (
         <div style = {{
@@ -10,7 +11,7 @@ function Pin(props) {
             ...styles[props.size]}}
         >
             <a href = {props.link} >
-            <div style={{filter: isHovered? 'brightness(0.5)': 'brightness(1)', backgroundImage: `url(${props.image})`, backgroundSize: 'cover'}} className='h-full w-full text-pink-300 rounded-lg text-center text-lg' onMouseEnter={() => setIsHovered(true)}
+            <div style={{filter: isHovered? 'brightness(0.5)': 'brightness(1)', color: textCol, backgroundImage: `url(${props.image})`, backgroundSize: 'cover'}} className='h-full w-full rounded-lg text-center text-lg' onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}> 
                     {isHovered && <p>{props.text}</p>} 
                 </div>
