@@ -15,11 +15,16 @@ export default function Modal({ setShowModal }) {
         
         let files = e.target.files;
         for (let file of files) {
-            let imageUrl = URL.createObjectURL(file);
-            let img = new Image();
+            const imageUrl = URL.createObjectURL(file);
+            const img = new Image();
             img.src = imageUrl;
-            const prediction = await model.predict(img);
-            console.log(prediction);
+
+            img.onload = async () => {
+                await tf.nextFrame();
+                const prediction = await model.predict(img);
+                console.log(prediction);
+            };
+
         }
 
     }
@@ -48,4 +53,3 @@ export default function Modal({ setShowModal }) {
         </div>
     )
 }
-
