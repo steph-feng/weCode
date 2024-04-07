@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "hg-regular";
+    src: url('../assets/fonts/HindGuntur-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "hg-semibold";
+    src: url('../assets/fonts/HindGuntur-SemiBold.ttf') format("truetype");
+}
+
+.title {
+    font-family: "hg-regular";
+    font-size: 5vh;
+    line-height: 1;
+}
