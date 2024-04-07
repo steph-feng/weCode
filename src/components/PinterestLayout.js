@@ -1,4 +1,3 @@
 export default function PinterestLayout( {level} ) {
-    console.log(level);
-    return <div></div>
+    return <div className="h-[100vh]"></div>
 }
